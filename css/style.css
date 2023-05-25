@@ -1,0 +1,401 @@
+:root {
+    --text-color: #434455;
+    --white-color: #ffffff;
+    --overlay-color: #2e2f42;
+    --light-color: #f4f4fd;
+    --primary-color: #4d5ae5;
+    --pressed-color: #404bbf;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+    background-color: var(--white-color);
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header__container {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
+
+.logo__text {
+    color: #2E2F42;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.menu__link {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding: 24px 0;
+}
+
+.menu__link:hover {
+    color: #404BBF;
+}
+
+.menu__link:focus {
+    color: #404BBF;
+}
+
+.address {
+    font-style: normal;
+    margin-left: auto;
+}
+
+.address__list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.address__link {
+    display: block;
+    color: #434455;
+    padding: 24px 0;
+}
+
+.address__link:focus {
+    color: #404BBF;
+}
+
+.address__link:hover {
+    color: #404BBF;
+}
+
+.hero {
+    background-color: #2e2f42;
+    padding: 188px 0;
+}
+
+.hero__title {
+    max-width: 496px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    color: #ffffff;
+    margin-bottom: 48px;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #404BBF;
+}
+
+.button:focus {
+    background-color: #404BBF;
+}
+
+.preference__title {
+
+}
+
+.preference__list {
+    list-style: none;
+    display: flex;
+}
+
+.preference__item {
+    width: calc((100% - 72px) / 4);
+}
+
+.preference__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.preference__subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.preference__text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.portfolio {
+    padding: 96px 0 120px
+}
+
+.portfolio__filter {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.portfolio__btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+
+.portfolio__btn:hover {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.portfolio__btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent;
+}
+
+.portfolio__content {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio__link {
+
+}
+
+.portfolio__content-wrap {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.portfolio__subtitle {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.portfolio__text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.services {
+    padding-top: 0;
+}
+
+.services__title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.services__content {
+    list-style: none;
+    display: flex;
+}
+
+.services__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.team {
+    background-color: #F4F4FD ;
+}
+
+
+.team__title {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px; 
+}
+
+.team__list {
+    list-style: none;
+    display: flex;
+}
+
+.team__item {
+    background-color: #ffffff;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.team__img {
+
+}
+
+.team__card {
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.team__name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+}
+
+.team__position {
+
+}
+
+.castomers__title {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.castomers__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.castomers__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 16px 32px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+
+.castomers__item:not(:last-child) {
+    margin-right: 24px;
+}
+
+.castomers__item:focus {
+    border: 1px solid #404BBF;
+}
+
+.castomers__item:hover {
+    border: 1px solid #404BBF;
+}
+
+.castomers__link {
+    color: #8E8F99;
+}
+
+.castomers__link:focus {
+    color: #404bbf;
+}
+
+.castomers__link:hover {
+    color: #404bbf;
+}
+
+.castomers__img {
+    fill: currentColor;
+}
+
+
+.footer {
+    padding: 100px 0;
+    background-color: #2E2F42;
+}
+
+.logo__footer {
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 16px;
+}
+
+.logo__text-footer {
+    color: #F4F4FD;
+}
+
+.footer__text {
+    width: 264px;
+    color: #F4F4FD;
+}
