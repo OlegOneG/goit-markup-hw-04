@@ -604,11 +604,13 @@ body {
 }
 
 .modal__button:focus {
+    fill: #ffffff;
     border: none;
     background-color: #404BBF;
 }
 
 .modal__button:hover {
+    fill: #ffffff;
     border: none;
     background-color: #404bbf;
 }
