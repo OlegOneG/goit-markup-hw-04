@@ -611,13 +611,13 @@ body {
 .modal__button:focus {
     fill: #ffffff;
     border: none;
-    background-color: #e7e9fc;
+    background-color: #404bbf;
 }
 
 .modal__button:hover {
     fill: #ffffff;
     border: none;
-    background-color: #e7e9fc;
+    background-color: #404bbf;
 }
 
 .modal__button-svg {
